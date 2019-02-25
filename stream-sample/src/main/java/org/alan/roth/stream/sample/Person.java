@@ -1,7 +1,9 @@
 /*
  * Copyright Payara Services Ltd
  */
-package org.alan.roth.lambda.sample;
+package org.alan.roth.stream.sample;
+
+import java.util.stream.Stream;
 
 /**
  *
@@ -21,7 +23,7 @@ public class Person {
     
     @Override
     public String toString(){
-        return "Person [firstName =" + getFirstName() + ", lastName="+ getLastName() + ", age=" + getAge() + "]";
+        return "Name: " + getFirstName() + " " + getLastName() + " age: " + getAge();
     }
 
     /**
@@ -64,5 +66,9 @@ public class Person {
      */
     public void setAge(int age) {
         this.age = age;
+    }
+
+    Stream<Object> getName() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
  }

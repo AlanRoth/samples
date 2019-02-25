@@ -8,6 +8,7 @@
     <modules>
         <module>lambda-sample</module>
         <module>arquillian-sample</module>
+        <module>stream-sample</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

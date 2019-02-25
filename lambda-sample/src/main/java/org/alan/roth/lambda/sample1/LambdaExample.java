@@ -1,7 +1,7 @@
 /*
  * Copyright Payara Services Ltd
  */
-package org.alan.roth.lambda.sample;
+package org.alan.roth.lambda.sample1;
 
 import java.util.Arrays;
 import java.util.Collections;
