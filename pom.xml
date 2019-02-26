@@ -10,6 +10,7 @@
         <module>arquillian-sample</module>
         <module>stream-sample</module>
     <module>jaxrs-sample</module>
+    <module>calculator-sample</module>
   </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
