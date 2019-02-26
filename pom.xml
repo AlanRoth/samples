@@ -11,6 +11,7 @@
         <module>stream-sample</module>
     <module>jaxrs-sample</module>
     <module>calculator-sample</module>
+    <module>JSP-sample</module>
   </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
